@@ -19,31 +19,16 @@
       "homepage": "https://ben-gibson.co.uk"
     }
   ],
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/ben-gibson/bryn"
-    },
-    {
-      "type": "vcs",
-      "url": "https://github.com/ben-gibson/bryn-european-central-bank-calculator"
-    },
-    {
-      "type": "vcs",
-      "url": "https://github.com/ben-gibson/bryn-yahoo-calculator"
-    }
-  ],
   "require": {
     "php": "~7.0",
-    "ben-gibson/bryn": "dev-master"
+    "ben-gibson/bryn": "~0.0.1"
   },
   "require-dev": {
     "phpunit/phpunit" : "~6.0",
     "squizlabs/php_codesniffer": "~2.3",
     "php-http/guzzle6-adapter": "^1.1",
-    "ben-gibson/bryn-european-central-bank-calculator": "dev-master",
-    "ben-gibson/bryn-yahoo-calculator": "dev-master"
-
+    "ben-gibson/bryn-european-central-bank-calculator": "~0.0.1",
+    "ben-gibson/bryn-yahoo-calculator": "~0.0.1"
   },
   "autoload": {
     "psr-4": {
