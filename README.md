@@ -1,7 +1,9 @@
 # Bryn - Fallback Calculator
 
+[![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
 [![Build Status](https://travis-ci.org/ben-gibson/bryn-fallback-calculator.svg?branch=master)](https://travis-ci.org/ben-gibson/bryn-fallback-calculator)
+[![Total Downloads][ico-downloads]][link-downloads]
 
 A fallback calculator for [Bryn](https://github.com/ben-gibson/bryn) that defers to registered calculators in priority order
 until an exchange rate is returned or they all fail.
@@ -73,6 +75,10 @@ If you discover any security related issues, please email ben.gibson.2011@gmail.
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
+[ico-version]: https://img.shields.io/packagist/v/ben-gibson/bryn-fallback-calculator.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/ben-gibson/bryn-fallback-calculator.svg?style=flat-square
+[link-packagist]: https://packagist.org/packages/ben-gibson/bryn-fallback-calculator
+[link-downloads]: https://packagist.org/packages/ben-gibson/bryn-fallback-calculator
 [ico-license]: https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square
 [link-author]: https://github.com/ben-gibson
 [link-contributors]: ../../contributors
